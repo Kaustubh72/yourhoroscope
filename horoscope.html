@@ -1,5 +1,25 @@
 <!DOCTYPE html> 
 <html lang="en"> 
+	<style>
+		a:link {
+		color: #ff3806 !important;
+		}
+
+		/* visited link */
+		a:visited {
+		color: aqua;
+		}
+
+		/* mouse over link */
+		a:hover {
+		color: yellow !important;
+		}
+
+		/* selected link */
+		a:active {
+		color: goldenrod;
+		}
+	</style>
 	<head> 
         <script src="script.js"></script> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -17,7 +37,11 @@
 				<span class="sr-only">Loading...</span> 
 			</div> 
 		</div> 
-		<h1>Your Everyday Horoscope</h1> 
+		<center><header style="color: aqua;background-color: black;font-size: 250%;">Your Everyday Horoscope</header></center>
 		<table id="horoscope" class="table table-dark table-hover"></table> 
 	</body> 
+	<footer style="background-color: black;"><br>
+		<p style="color: aqua;text-align: center;">Content Scraped from <a style="color: red;text-decoration:none;" href="https://www.horoscope.com/">Horoscope Website</a></p><br>
+		<p style="color: aqua;text-align: center;">Made with <a style="color: red;">❤</a> from <a style="color: red;text-decoration:none;" href="https://kaustubhsingh.herokuapp.com/">Kaustubh</a></p><br>
+	</footer>
 </html> 

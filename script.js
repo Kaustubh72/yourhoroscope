@@ -27,15 +27,15 @@ function hideloader() {
 function show(data) { 
 	let tab = 
 		`<tr> 
-		<th>Id</th> 
+		<th>Date Range</th> 
 		<th>Horoscope</th> 
-		<th>Prediction</th> 
+		<th>Date - Prediction</th> 
 		</tr>`; 
 	
 	// Loop to access all rows 
 	for (let r of data) { 
 		tab += `<tr> 
-	<td>${r.id} </td> 
+	<td>${r.id}</td> 
 	<td>${r.horoscope}</td> 
 	<td>${r.prediction}</td> 	 
 </tr>`; 
